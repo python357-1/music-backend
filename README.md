@@ -1,3 +1,18 @@
+# DEPENDENCIES
+
+## deploy dependencies (always required)
+better-sqlite3
+dotenv
+express
+sqlite3
+
+install all of these by using `npm install --production or by setting the node variable`
+
+## dev dependencies (not required, nice to have)
+nodemon
+
+install these along with deploy dependencies by using `npm install --production=false or by unsetting the production node variable`
+
 # Song API
 ## guide on song API
 
